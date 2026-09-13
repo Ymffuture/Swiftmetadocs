@@ -2,21 +2,17 @@ import { type Paths } from '@/lib/pageroutes'
 
 export const Documents: Paths[] = [
   {
-    heading: 'Introduction',
-    title: 'Basic Setup',
-    href: '/basic-setup',
+    heading: 'Products',
+    title: 'SonaTG',
+    href: '/sonatg',
     items: [
       {
-        title: 'Installation',
-        href: '/installation',
+        title: 'Overview',
+        href: '/overview',
       },
       {
-        title: 'Setup',
-        href: '/setup',
-      },
-      {
-        title: 'Changelog',
-        href: '/changelog',
+        title: 'Getting Started',
+        href: '/getting-started',
       },
     ],
   },
@@ -24,76 +20,8 @@ export const Documents: Paths[] = [
     spacer: true,
   },
   {
-    title: 'Navigation',
-    href: '/navigation',
-    heading: 'Documents',
-  },
-  {
-    title: 'Structure',
-    href: '/structure',
-    items: [
-      {
-        title: 'Deep',
-        href: '/deep',
-        items: [
-          {
-            title: 'Deeper',
-            href: '/deeper',
-            items: [
-              {
-                title: 'Even deeper',
-                href: '/even-deeper',
-              },
-            ],
-          },
-        ],
-      },
-    ],
-  },
-  {
-    spacer: true,
-  },
-  {
-    title: 'Markdown',
-    href: '/markdown',
-    heading: 'Components',
-    items: [
-      {
-        title: 'Cards',
-        href: '/cards',
-      },
-      {
-        title: 'Diagrams',
-        href: '/diagrams',
-      },
-      {
-        title: 'Filetree',
-        href: '/filetree',
-      },
-      {
-        title: 'Lists',
-        href: '/lists',
-      },
-      {
-        title: 'Maths',
-        href: '/maths',
-      },
-      {
-        title: 'Notes',
-        href: '/notes',
-      },
-      {
-        title: 'Steps',
-        href: '/steps',
-      },
-      {
-        title: 'Table',
-        href: '/table',
-      },
-      {
-        title: 'Tabs',
-        href: '/tabs',
-      },
-    ],
+    title: 'ClassTour',
+    href: '/classtour',
+    heading: 'Upcoming',
   },
 ]
