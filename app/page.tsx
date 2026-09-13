@@ -22,6 +22,16 @@ export default function Home() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section className="mx-auto max-w-3xl px-2 py-16 text-center sm:px-8">
+        <h2 className="mb-4 text-3xl font-bold">About SwiftMeta</h2>
+        <p className="text-foreground/80">
+          SwiftMeta is a technology company building across two fronts: communication and
+          education. We ship real-time software people rely on every day, and we're bringing
+          that same craft to how students learn.
+        </p>
+      </section>
+
       {/* Products Section */}
       <section className="mx-auto flex max-w-4xl flex-col gap-8 px-2 py-16 sm:px-8">
         <h2 className="text-center text-3xl font-bold">Our Products</h2>
@@ -31,12 +41,14 @@ export default function Home() {
           <div className="mb-3 inline-block rounded-full bg-primary/10 px-3 py-1 text-sm font-semibold text-primary">
             Live Now
           </div>
-          <h3 className="mb-3 text-2xl font-bold">SonaTG</h3>
+          <h3 className="mb-3 text-2xl font-bold">SonaTG — Talk Gold</h3>
           <p className="mb-6 text-foreground/80">
-            A real-time live chat platform designed for seamless communication and collaboration.
+            Private messaging, voice &amp; video calls, and AI-powered conversations with Sona
+            AI — all in one beautiful, encrypted place. Real-time chat with friends, built for
+            genuine connection.
           </p>
           <Link
-            href="https://sonatg.app"
+            href="https://sonatg.vercel.app"
             className={buttonVariants({ variant: 'default', className: 'w-full sm:w-auto' })}
           >
             Open SonaTG
@@ -50,7 +62,8 @@ export default function Home() {
           </div>
           <h3 className="mb-3 text-2xl font-bold">ClassTour</h3>
           <p className="mb-6 text-foreground/80">
-            An interactive learning platform for Grade 11–12 students in Mathematics, Physical Sciences, and Life Sciences.
+            An interactive learning platform for Grade 11–12 students in Mathematics, Physical
+            Sciences, and Life Sciences.
           </p>
           <button
             disabled
